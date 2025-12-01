@@ -1,0 +1,90 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to right, #6dd5fa, #a8a2dd);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-image: url(https://www.shutterstock.com/image-vector/falling-coins-money-flying-gold-260nw-2340130743.jpg);
+background-size: cover;
+}
+
+.container {
+background: linear-gradient(to right,   #e68927 , #f7c062);
+padding: 5.1875rem 2.5rem;
+border-radius: 12.5rem;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+
+h1 {
+color: black;
+font-family: a;
+font-size: 3rem;
+margin-bottom: 1.875rem;
+}
+
+#result {
+font-size: 1.4em;
+margin-bottom: 1.25rem;
+color: black;
+font-family: a;
+font-weight: bold;
+}
+
+button {
+background-color: brown;
+color: white;
+border: none;
+padding: 0.75rem 1.5625rem;
+border-radius: 6.25rem;
+font-size: 1.3em;
+cursor: pointer;
+font-family: a;
+transition: all 0.3s ease;
+}
+
+button:hover {
+background-color: #f83f07;
+transform: scale(1.05);
+}
+
+/* Media queries  */
+
+@media (max-width: 375px) {
+    .container {
+        padding: 3.9rem 1.9rem;
+        width: 60vw;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #result {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.7rem 1.4rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 2.5rem 1.6rem;
+        width: 60vw;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #result {
+        font-size: 1rem;
+    }
+
+   
+}
