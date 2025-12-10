@@ -47,13 +47,11 @@ git clone https://github.com/ayeshanoor-codes/coin-toss.git
 ---
 
 
-## License
+## Author
 
-This project is open-source and free to use.
+Developed by **Ayesha Noor**.
 
 ---
 
-Feel free to fork this project, improve it, or integrate it into your own website! 🚀
+If you like this project, consider giving the repo a ⭐ on GitHub!
 
-```
-```
